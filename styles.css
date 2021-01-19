@@ -1,0 +1,18 @@
+/* ///////////////////////////////////////////////               GENERAL */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+button {
+  width: 200px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 100px;
+  border-radius: 50px;
+}
