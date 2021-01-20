@@ -1,4 +1,3 @@
-console.log('hello');
 
 const users = [
   { name: 'Mango', active: true },
@@ -21,6 +20,6 @@ const toggleUserState = (allUsers, userName) => {
 
 const logger = updatedUsers => console.table(updatedUsers);
 
-
+// ----------------- Запуск ф-и
 toggleUserState(users, 'Mango').then(logger);
 toggleUserState(users, 'Lux').then(logger);
